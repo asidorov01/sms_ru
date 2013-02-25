@@ -1,0 +1,21 @@
+{
+    "name": "zelenin/sms_ru",
+    "description": "sms.ru service",
+    "keywords": ["php", "sms"],
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Aleksandr Zelenin"
+        },
+        {
+            "name": "Alex Sidorov"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "psr-0": {"SmsRu": "src/"}
+    }
+}
